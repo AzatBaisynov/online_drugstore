@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+  .steps_confetti {
+    width: 213px;
+    bottom: 127px;
+    right: -45px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+  .steps {
+    &_confetti {
+      display: none;
+    }
+    &_path {
+      width: 66%;
+    }
+    &_one {
+      left: 152px;
+    }
+    &_three {
+      right: 124px;
+    }
+    &_circle1 {
+      left: 165px;
+    }
+    &_circle3 {
+      right: 134px;
+    }
+  }
+}
+@media (max-width: 820px) {
+  .container {
+    max-width: 790px;
+  }
+  .section {
+    &_title {
+      font-size: 37px;
+    }
+    &_desc {
+      font-size: 16px;
+    }
+  }
+  .steps {
+    &_drop2 {
+      left: 280px;
+      top: -31px;
+    }
+    &_drop1 {
+      left: 78px;
+      top: -32px;
+    }
+    &_left-part {
+      left: 18px;
+      bottom: -4px;
+    }
+    &_right-part {
+      right: -4px;
+      bottom: 22px;
+    }
+    &_one {
+      left: 93px;
+    }
+    &_circle1 {
+      left: 104px;
+    }
+    &_three {
+      right: 100px;
+    }
+    &_circle3 {
+      right: 113px;
+    }
+    &_sm-desc {
+      font-size: 14px;
+    }
+    &_two {
+      top: -3px;
+    }
+    &_circle2 {
+      top: 12px;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    max-width: 500px;
+  }
+  .section {
+    &_title {
+      font-size: 26px;
+    }
+    &_desc {
+      font-size: 14px;
+    }
+  }
+  .steps {
+    padding: 57px 0;
+    &_content {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    & img {
+      display: none;
+    }
+    &_left-part, &_right-part, &_center-part {
+      position: static;
+      width: 369px;
+    }
+    &_center-part {
+      margin: 17px 0;
+    }
+  }
+}
